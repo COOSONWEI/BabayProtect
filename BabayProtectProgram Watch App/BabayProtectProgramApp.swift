@@ -9,10 +9,19 @@ import SwiftUI
 
 @main
 struct BabayProtectProgram_Watch_AppApp: App {
+    
+    @StateObject private var healthModel = HealthModel()
+    
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                MenuView()
+                MenuView(healthModel: healthModel)
+                    .onAppear {
+                        healthModel.requestHealthKitPermissions()
+                        healthModel.fetchTodayStepCount()
+                        healthModel.fetchStaticHeartRate()
+                        healthModel.fetchCurrentHeartRate()
+                    }
             }
            
            

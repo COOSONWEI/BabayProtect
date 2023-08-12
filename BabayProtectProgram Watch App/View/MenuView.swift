@@ -10,7 +10,8 @@ import WatchKit
 
 
 struct MenuView: View {
-
+    @StateObject var healthModel: HealthModel
+    var model = ViewModelWatch()
     var body: some View {
         NavigationStack{
             VStack(spacing: 15){
@@ -24,7 +25,7 @@ struct MenuView: View {
                     .frame(width: 75, height:75)
 
                     NavigationLink {
-                        HealrhView()
+                        HealthView(healthModel: healthModel)
                     } label: {
                         MenuRow(image: "Health")
                     }
@@ -50,13 +51,13 @@ struct MenuView: View {
             }
             .padding(.top)
         }
-     
+        
         
     }
 }
 
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuView()
+        MenuView(healthModel: HealthModel())
     }
 }
