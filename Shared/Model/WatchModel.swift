@@ -9,13 +9,14 @@ import Foundation
 import SwiftUI
 import WatchConnectivity
 
-class ViewModelWatch : NSObject,  WCSessionDelegate{
+class ViewModelWatch : NSObject, ObservableObject,  WCSessionDelegate{
     
     var session: WCSession
     init(session: WCSession = .default){
         self.session = session
         session.activate()
     }
+    
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         
     }

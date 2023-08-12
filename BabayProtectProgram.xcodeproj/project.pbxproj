@@ -10,6 +10,13 @@
 		2F026A942A8671E9005248EF /* BluetoolthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0725722A8360A9007A36CE /* BluetoolthModel.swift */; };
 		2F026A972A86726C005248EF /* OutDoorPositionEnterModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026A962A86726C005248EF /* OutDoorPositionEnterModify.swift */; };
 		2F026A982A867475005248EF /* WatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0892A866C84006DA2C8 /* WatchModel.swift */; };
+		2F026A9A2A874723005248EF /* HealthEnterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026A992A874723005248EF /* HealthEnterView.swift */; };
+		2F026A9C2A87485A005248EF /* InDoorEnterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026A9B2A87485A005248EF /* InDoorEnterView.swift */; };
+		2F026A9E2A874C42005248EF /* HomeFunctionChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026A9D2A874C42005248EF /* HomeFunctionChooseView.swift */; };
+		2F026AA42A8752C7005248EF /* OutDoorMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AA32A8752C7005248EF /* OutDoorMainView.swift */; };
+		2F026AA62A877332005248EF /* OutDoorFunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AA52A877332005248EF /* OutDoorFunctionView.swift */; };
+		2F026AAA2A8773ED005248EF /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AA92A8773ED005248EF /* LocationView.swift */; };
+		2F026AAC2A879952005248EF /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AAB2A879952005248EF /* LocationModel.swift */; };
 		2F07254C2A835FC9007A36CE /* BabayProtectProgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07254B2A835FC9007A36CE /* BabayProtectProgramApp.swift */; };
 		2F07254E2A835FC9007A36CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07254D2A835FC9007A36CE /* ContentView.swift */; };
 		2F0725502A835FCB007A36CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F07254F2A835FCB007A36CE /* Assets.xcassets */; };
@@ -45,9 +52,7 @@
 		2F59B06D2A8627BE006DA2C8 /* HealthKitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B06B2A8627BE006DA2C8 /* HealthKitSupport.swift */; };
 		2F59B0712A86460F006DA2C8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0702A86460F006DA2C8 /* HomeView.swift */; };
 		2F59B0752A8649F7006DA2C8 /* UnConectWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0742A8649F7006DA2C8 /* UnConectWatchView.swift */; };
-		2F59B0762A8649F7006DA2C8 /* UnConectWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0742A8649F7006DA2C8 /* UnConectWatchView.swift */; };
 		2F59B0782A864A01006DA2C8 /* ConectWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0772A864A01006DA2C8 /* ConectWatchView.swift */; };
-		2F59B0792A864A01006DA2C8 /* ConectWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0772A864A01006DA2C8 /* ConectWatchView.swift */; };
 		2F59B07B2A864A4D006DA2C8 /* TextModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B07A2A864A4D006DA2C8 /* TextModify.swift */; };
 		2F59B07C2A864A4D006DA2C8 /* TextModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B07A2A864A4D006DA2C8 /* TextModify.swift */; };
 		2F59B07E2A864D11006DA2C8 /* HomeBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B07D2A864D11006DA2C8 /* HomeBGView.swift */; };
@@ -83,6 +88,14 @@
 
 /* Begin PBXFileReference section */
 		2F026A962A86726C005248EF /* OutDoorPositionEnterModify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutDoorPositionEnterModify.swift; sourceTree = "<group>"; };
+		2F026A992A874723005248EF /* HealthEnterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthEnterView.swift; sourceTree = "<group>"; };
+		2F026A9B2A87485A005248EF /* InDoorEnterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InDoorEnterView.swift; sourceTree = "<group>"; };
+		2F026A9D2A874C42005248EF /* HomeFunctionChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFunctionChooseView.swift; sourceTree = "<group>"; };
+		2F026AA32A8752C7005248EF /* OutDoorMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutDoorMainView.swift; sourceTree = "<group>"; };
+		2F026AA52A877332005248EF /* OutDoorFunctionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutDoorFunctionView.swift; sourceTree = "<group>"; };
+		2F026AA92A8773ED005248EF /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		2F026AAB2A879952005248EF /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		2F026AAD2A879F3E005248EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2F0725482A835FC9007A36CE /* BabayProtectProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabayProtectProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F07254B2A835FC9007A36CE /* BabayProtectProgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabayProtectProgramApp.swift; sourceTree = "<group>"; };
 		2F07254D2A835FC9007A36CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -143,6 +156,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F026A9F2A874F78005248EF /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		2F026AA02A874F8C005248EF /* OutDoorView */ = {
+			isa = PBXGroup;
+			children = (
+				2F026AA32A8752C7005248EF /* OutDoorMainView.swift */,
+			);
+			path = OutDoorView;
+			sourceTree = "<group>";
+		};
+		2F026AA12A874F93005248EF /* InDoorView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InDoorView;
+			sourceTree = "<group>";
+		};
+		2F026AA22A874F9C005248EF /* HealthView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HealthView;
+			sourceTree = "<group>";
+		};
+		2F026AA72A87733B005248EF /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				2F59B0742A8649F7006DA2C8 /* UnConectWatchView.swift */,
+				2F59B0772A864A01006DA2C8 /* ConectWatchView.swift */,
+				2F026A962A86726C005248EF /* OutDoorPositionEnterModify.swift */,
+				2F026A992A874723005248EF /* HealthEnterView.swift */,
+				2F026A9B2A87485A005248EF /* InDoorEnterView.swift */,
+				2F026A9D2A874C42005248EF /* HomeFunctionChooseView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		2F026AA82A87734E005248EF /* OutDoorView */ = {
+			isa = PBXGroup;
+			children = (
+				2F026AA52A877332005248EF /* OutDoorFunctionView.swift */,
+				2F026AA92A8773ED005248EF /* LocationView.swift */,
+			);
+			path = OutDoorView;
+			sourceTree = "<group>";
+		};
 		2F07253F2A835FC9007A36CE = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +229,7 @@
 		2F07254A2A835FC9007A36CE /* BabayProtectProgram */ = {
 			isa = PBXGroup;
 			children = (
+				2F026AAD2A879F3E005248EF /* Info.plist */,
 				2F59B0862A866AC9006DA2C8 /* Model */,
 				2F59B0732A8649DB006DA2C8 /* ModifyView */,
 				2F59B06F2A8645EE006DA2C8 /* Utilities */,
@@ -227,6 +292,7 @@
 				2F0725842A83802C007A36CE /* PhoneNumberModel.swift */,
 				2F0725952A84ACDF007A36CE /* HealthModel.swift */,
 				2F59B0892A866C84006DA2C8 /* WatchModel.swift */,
+				2F026AAB2A879952005248EF /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,6 +344,10 @@
 		2F59B06E2A86456F006DA2C8 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				2F026AA22A874F9C005248EF /* HealthView */,
+				2F026AA12A874F93005248EF /* InDoorView */,
+				2F026AA02A874F8C005248EF /* OutDoorView */,
+				2F026A9F2A874F78005248EF /* MainView */,
 				2F59B0702A86460F006DA2C8 /* HomeView.swift */,
 				2F59B0802A865D03006DA2C8 /* CustomBar.swift */,
 			);
@@ -294,11 +364,10 @@
 		2F59B0732A8649DB006DA2C8 /* ModifyView */ = {
 			isa = PBXGroup;
 			children = (
-				2F59B0742A8649F7006DA2C8 /* UnConectWatchView.swift */,
-				2F59B0772A864A01006DA2C8 /* ConectWatchView.swift */,
+				2F026AA82A87734E005248EF /* OutDoorView */,
+				2F026AA72A87733B005248EF /* HomeView */,
 				2F59B07A2A864A4D006DA2C8 /* TextModify.swift */,
 				2F59B07D2A864D11006DA2C8 /* HomeBGView.swift */,
-				2F026A962A86726C005248EF /* OutDoorPositionEnterModify.swift */,
 			);
 			path = ModifyView;
 			sourceTree = "<group>";
@@ -416,6 +485,9 @@
 				2F59B0712A86460F006DA2C8 /* HomeView.swift in Sources */,
 				2F07254E2A835FC9007A36CE /* ContentView.swift in Sources */,
 				2F026A942A8671E9005248EF /* BluetoolthModel.swift in Sources */,
+				2F026AAA2A8773ED005248EF /* LocationView.swift in Sources */,
+				2F026A9E2A874C42005248EF /* HomeFunctionChooseView.swift in Sources */,
+				2F026A9C2A87485A005248EF /* InDoorEnterView.swift in Sources */,
 				2F026A972A86726C005248EF /* OutDoorPositionEnterModify.swift in Sources */,
 				2F59B0752A8649F7006DA2C8 /* UnConectWatchView.swift in Sources */,
 				2F59B07B2A864A4D006DA2C8 /* TextModify.swift in Sources */,
@@ -423,10 +495,14 @@
 				2F59B0812A865D03006DA2C8 /* CustomBar.swift in Sources */,
 				2F07254C2A835FC9007A36CE /* BabayProtectProgramApp.swift in Sources */,
 				2F59B06A2A8621D0006DA2C8 /* PhoneNumberModel.swift in Sources */,
+				2F026AA62A877332005248EF /* OutDoorFunctionView.swift in Sources */,
 				2F59B07E2A864D11006DA2C8 /* HomeBGView.swift in Sources */,
+				2F026AAC2A879952005248EF /* LocationModel.swift in Sources */,
+				2F026AA42A8752C7005248EF /* OutDoorMainView.swift in Sources */,
 				2F59B0692A8621CD006DA2C8 /* HealthModel.swift in Sources */,
 				2F59B0882A866ADA006DA2C8 /* WCSessionModel.swift in Sources */,
 				2F59B0782A864A01006DA2C8 /* ConectWatchView.swift in Sources */,
+				2F026A9A2A874723005248EF /* HealthEnterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,8 +514,6 @@
 				2F07258E2A83BE32007A36CE /* callContact.swift in Sources */,
 				2F59B0822A865D03006DA2C8 /* CustomBar.swift in Sources */,
 				2F0725832A837C9A007A36CE /* CallModifyView.swift in Sources */,
-				2F59B0792A864A01006DA2C8 /* ConectWatchView.swift in Sources */,
-				2F59B0762A8649F7006DA2C8 /* UnConectWatchView.swift in Sources */,
 				2F0725922A83D179007A36CE /* HealthView.swift in Sources */,
 				2F0725762A8365C1007A36CE /* MenuView.swift in Sources */,
 				2F07257B2A836AFB007A36CE /* MenuRow.swift in Sources */,
@@ -664,7 +738,9 @@
 				DEVELOPMENT_TEAM = YPH9WA3Z7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BabayProtectProgram/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "守护";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "守护想要访问你的位置信息以便外出的时候能够检测你和孩子之间的距离";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -697,7 +773,9 @@
 				DEVELOPMENT_TEAM = YPH9WA3Z7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BabayProtectProgram/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "守护";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "守护想要访问你的位置信息以便外出的时候能够检测你和孩子之间的距离";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -10,20 +10,13 @@ import WatchConnectivity
 
 @main
 struct BabayProtectProgramApp: App {
-    init() {
-            // 设置 WCSession 代理
-            if WCSession.isSupported() {
-                WCSession.default.delegate = BabayProtectProgramWCSession() // 替换为你自己的代理类
-                WCSession.default.activate()
-            }
-        }
     
     var body: some Scene {
         WindowGroup {
             HomeView()
-               
         }
     }
+    
 }
 
 class BabayProtectProgramWCSession: NSObject,WCSessionDelegate {
