@@ -19,7 +19,8 @@ class HealthModel: NSObject, ObservableObject {
         let typeIdentifiers: [String] = [
             HKQuantityTypeIdentifier.stepCount.rawValue,
             HKQuantityTypeIdentifier.heartRate.rawValue,
-            HKQuantityTypeIdentifier.restingHeartRate.rawValue
+            HKQuantityTypeIdentifier.restingHeartRate.rawValue,
+            HKCategoryTypeIdentifier.sleepAnalysis.rawValue
         ]
         
         return typeIdentifiers.compactMap { getSampleType(for: $0) }
@@ -111,6 +112,7 @@ class HealthModel: NSObject, ObservableObject {
         healthStore.execute(query)
     }
     
+    //获取静息心率
     func fetchStaticHeartRate() {
           
            let heartRateType = HKQuantityType.quantityType(forIdentifier: .restingHeartRate)!
@@ -126,4 +128,30 @@ class HealthModel: NSObject, ObservableObject {
            
            healthStore.execute(query)
        }
+    
+    //获取睡眠时间
+    func fetchSleepData() {
+        
+            let sleepType = HKObjectType.categoryType(forIdentifier: .sleepAnalysis)!
+            
+            let datePredicate = HKQuery.predicateForSamples(withStart: Date().addingTimeInterval(-86400), end: Date(), options: .strictStartDate)
+            
+            let query = HKSampleQuery(sampleType: sleepType, predicate: datePredicate, limit: HKObjectQueryNoLimit, sortDescriptors: nil) { query, samples, error in
+                if let samples = samples {
+                    var totalSleepDuration: TimeInterval = 0.0
+                    for sample in samples {
+                        if let sample = sample as? HKCategorySample,
+                           sample.value == HKCategoryValueSleepAnalysis.inBed.rawValue {
+                            totalSleepDuration += sample.endDate.timeIntervalSince(sample.startDate)
+                        }
+                    }
+                    DispatchQueue.main.async {
+                        self.sleepTime = totalSleepDuration
+                        print("self.sleepTime\(self.sleepTime)")
+                    }
+                }
+            }
+            
+            healthStore.execute(query)
+        }
 }

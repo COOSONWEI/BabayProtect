@@ -21,6 +21,7 @@ struct BabayProtectProgram_Watch_AppApp: App {
                         healthModel.fetchTodayStepCount()
                         healthModel.fetchStaticHeartRate()
                         healthModel.fetchCurrentHeartRate()
+                        healthModel.fetchSleepData()
                     }
             }
            

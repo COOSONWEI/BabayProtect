@@ -17,6 +17,16 @@
 		2F026AA62A877332005248EF /* OutDoorFunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AA52A877332005248EF /* OutDoorFunctionView.swift */; };
 		2F026AAA2A8773ED005248EF /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AA92A8773ED005248EF /* LocationView.swift */; };
 		2F026AAC2A879952005248EF /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AAB2A879952005248EF /* LocationModel.swift */; };
+		2F026AB12A87C3C7005248EF /* AddDangerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AB02A87C3C7005248EF /* AddDangerView.swift */; };
+		2F026AB32A8867F1005248EF /* DangerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AB22A8867F1005248EF /* DangerButtonView.swift */; };
+		2F026AB52A886DC2005248EF /* DangerGeofenceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AB42A886DC2005248EF /* DangerGeofenceCard.swift */; };
+		2F026AB72A8870C0005248EF /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AB62A8870C0005248EF /* Image+Extension.swift */; };
+		2F026AB92A887C29005248EF /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AB82A887C29005248EF /* HealthView.swift */; };
+		2F026ABC2A888275005248EF /* ExerciseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026ABB2A888275005248EF /* ExerciseCard.swift */; };
+		2F026ABE2A889B3E005248EF /* RunCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026ABD2A889B3E005248EF /* RunCard.swift */; };
+		2F026AC02A889B45005248EF /* WalkCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026ABF2A889B45005248EF /* WalkCard.swift */; };
+		2F026AC22A889B53005248EF /* SleepCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AC12A889B53005248EF /* SleepCard.swift */; };
+		2F026AC42A889B82005248EF /* MoreInformationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026AC32A889B82005248EF /* MoreInformationList.swift */; };
 		2F07254C2A835FC9007A36CE /* BabayProtectProgramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07254B2A835FC9007A36CE /* BabayProtectProgramApp.swift */; };
 		2F07254E2A835FC9007A36CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07254D2A835FC9007A36CE /* ContentView.swift */; };
 		2F0725502A835FCB007A36CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F07254F2A835FCB007A36CE /* Assets.xcassets */; };
@@ -96,6 +106,16 @@
 		2F026AA92A8773ED005248EF /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		2F026AAB2A879952005248EF /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		2F026AAD2A879F3E005248EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2F026AB02A87C3C7005248EF /* AddDangerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDangerView.swift; sourceTree = "<group>"; };
+		2F026AB22A8867F1005248EF /* DangerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerButtonView.swift; sourceTree = "<group>"; };
+		2F026AB42A886DC2005248EF /* DangerGeofenceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerGeofenceCard.swift; sourceTree = "<group>"; };
+		2F026AB62A8870C0005248EF /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		2F026AB82A887C29005248EF /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		2F026ABB2A888275005248EF /* ExerciseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCard.swift; sourceTree = "<group>"; };
+		2F026ABD2A889B3E005248EF /* RunCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunCard.swift; sourceTree = "<group>"; };
+		2F026ABF2A889B45005248EF /* WalkCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkCard.swift; sourceTree = "<group>"; };
+		2F026AC12A889B53005248EF /* SleepCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepCard.swift; sourceTree = "<group>"; };
+		2F026AC32A889B82005248EF /* MoreInformationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInformationList.swift; sourceTree = "<group>"; };
 		2F0725482A835FC9007A36CE /* BabayProtectProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabayProtectProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F07254B2A835FC9007A36CE /* BabayProtectProgramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabayProtectProgramApp.swift; sourceTree = "<group>"; };
 		2F07254D2A835FC9007A36CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -159,6 +179,9 @@
 		2F026A9F2A874F78005248EF /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				2F026AA22A874F9C005248EF /* HealthView */,
+				2F026AA12A874F93005248EF /* InDoorView */,
+				2F026AA02A874F8C005248EF /* OutDoorView */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -167,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				2F026AA32A8752C7005248EF /* OutDoorMainView.swift */,
+				2F026AB02A87C3C7005248EF /* AddDangerView.swift */,
 			);
 			path = OutDoorView;
 			sourceTree = "<group>";
@@ -181,6 +205,7 @@
 		2F026AA22A874F9C005248EF /* HealthView */ = {
 			isa = PBXGroup;
 			children = (
+				2F026AB82A887C29005248EF /* HealthView.swift */,
 			);
 			path = HealthView;
 			sourceTree = "<group>";
@@ -203,8 +228,22 @@
 			children = (
 				2F026AA52A877332005248EF /* OutDoorFunctionView.swift */,
 				2F026AA92A8773ED005248EF /* LocationView.swift */,
+				2F026AB22A8867F1005248EF /* DangerButtonView.swift */,
+				2F026AB42A886DC2005248EF /* DangerGeofenceCard.swift */,
 			);
 			path = OutDoorView;
+			sourceTree = "<group>";
+		};
+		2F026ABA2A888235005248EF /* HealthView */ = {
+			isa = PBXGroup;
+			children = (
+				2F026ABB2A888275005248EF /* ExerciseCard.swift */,
+				2F026ABD2A889B3E005248EF /* RunCard.swift */,
+				2F026ABF2A889B45005248EF /* WalkCard.swift */,
+				2F026AC12A889B53005248EF /* SleepCard.swift */,
+				2F026AC32A889B82005248EF /* MoreInformationList.swift */,
+			);
+			path = HealthView;
 			sourceTree = "<group>";
 		};
 		2F07253F2A835FC9007A36CE = {
@@ -231,8 +270,6 @@
 			children = (
 				2F026AAD2A879F3E005248EF /* Info.plist */,
 				2F59B0862A866AC9006DA2C8 /* Model */,
-				2F59B0732A8649DB006DA2C8 /* ModifyView */,
-				2F59B06F2A8645EE006DA2C8 /* Utilities */,
 				2F59B06E2A86456F006DA2C8 /* VIew */,
 				2F07254B2A835FC9007A36CE /* BabayProtectProgramApp.swift */,
 				2F07254D2A835FC9007A36CE /* ContentView.swift */,
@@ -344,9 +381,8 @@
 		2F59B06E2A86456F006DA2C8 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
-				2F026AA22A874F9C005248EF /* HealthView */,
-				2F026AA12A874F93005248EF /* InDoorView */,
-				2F026AA02A874F8C005248EF /* OutDoorView */,
+				2F59B0732A8649DB006DA2C8 /* ModifyView */,
+				2F59B06F2A8645EE006DA2C8 /* Utilities */,
 				2F026A9F2A874F78005248EF /* MainView */,
 				2F59B0702A86460F006DA2C8 /* HomeView.swift */,
 				2F59B0802A865D03006DA2C8 /* CustomBar.swift */,
@@ -357,6 +393,7 @@
 		2F59B06F2A8645EE006DA2C8 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				2F026AB62A8870C0005248EF /* Image+Extension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -364,6 +401,7 @@
 		2F59B0732A8649DB006DA2C8 /* ModifyView */ = {
 			isa = PBXGroup;
 			children = (
+				2F026ABA2A888235005248EF /* HealthView */,
 				2F026AA82A87734E005248EF /* OutDoorView */,
 				2F026AA72A87733B005248EF /* HomeView */,
 				2F59B07A2A864A4D006DA2C8 /* TextModify.swift */,
@@ -482,10 +520,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F59B06C2A8627BE006DA2C8 /* HealthKitSupport.swift in Sources */,
+				2F026AB32A8867F1005248EF /* DangerButtonView.swift in Sources */,
+				2F026AB12A87C3C7005248EF /* AddDangerView.swift in Sources */,
 				2F59B0712A86460F006DA2C8 /* HomeView.swift in Sources */,
 				2F07254E2A835FC9007A36CE /* ContentView.swift in Sources */,
 				2F026A942A8671E9005248EF /* BluetoolthModel.swift in Sources */,
+				2F026ABE2A889B3E005248EF /* RunCard.swift in Sources */,
 				2F026AAA2A8773ED005248EF /* LocationView.swift in Sources */,
+				2F026AB72A8870C0005248EF /* Image+Extension.swift in Sources */,
+				2F026AC42A889B82005248EF /* MoreInformationList.swift in Sources */,
 				2F026A9E2A874C42005248EF /* HomeFunctionChooseView.swift in Sources */,
 				2F026A9C2A87485A005248EF /* InDoorEnterView.swift in Sources */,
 				2F026A972A86726C005248EF /* OutDoorPositionEnterModify.swift in Sources */,
@@ -493,16 +536,21 @@
 				2F59B07B2A864A4D006DA2C8 /* TextModify.swift in Sources */,
 				2F07257F2A83794E007A36CE /* GetContacts.swift in Sources */,
 				2F59B0812A865D03006DA2C8 /* CustomBar.swift in Sources */,
+				2F026AB92A887C29005248EF /* HealthView.swift in Sources */,
 				2F07254C2A835FC9007A36CE /* BabayProtectProgramApp.swift in Sources */,
 				2F59B06A2A8621D0006DA2C8 /* PhoneNumberModel.swift in Sources */,
 				2F026AA62A877332005248EF /* OutDoorFunctionView.swift in Sources */,
 				2F59B07E2A864D11006DA2C8 /* HomeBGView.swift in Sources */,
 				2F026AAC2A879952005248EF /* LocationModel.swift in Sources */,
+				2F026AB52A886DC2005248EF /* DangerGeofenceCard.swift in Sources */,
 				2F026AA42A8752C7005248EF /* OutDoorMainView.swift in Sources */,
 				2F59B0692A8621CD006DA2C8 /* HealthModel.swift in Sources */,
+				2F026AC22A889B53005248EF /* SleepCard.swift in Sources */,
 				2F59B0882A866ADA006DA2C8 /* WCSessionModel.swift in Sources */,
 				2F59B0782A864A01006DA2C8 /* ConectWatchView.swift in Sources */,
 				2F026A9A2A874723005248EF /* HealthEnterView.swift in Sources */,
+				2F026AC02A889B45005248EF /* WalkCard.swift in Sources */,
+				2F026ABC2A888275005248EF /* ExerciseCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,6 +789,8 @@
 				INFOPLIST_FILE = BabayProtectProgram/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "守护";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "守护想要访问你的位置信息以便外出的时候能够检测你和孩子之间的距离";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "守护想要访问更新你的位置信息";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "守护想要访问更新你的位置信息";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -776,6 +826,8 @@
 				INFOPLIST_FILE = BabayProtectProgram/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "守护";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "守护想要访问你的位置信息以便外出的时候能够检测你和孩子之间的距离";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "守护想要访问更新你的位置信息";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "守护想要访问更新你的位置信息";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ConectWatchView: View {
-    
+    @State var enterAddDangerous = false
     var body: some View {
         ZStack{
             //背景
@@ -128,7 +128,7 @@ struct ConectWatchView: View {
                         
                         
                         Button {
-                            
+                            enterAddDangerous = true
                         } label: {
                             ZStack{
                                 Rectangle()
@@ -163,6 +163,9 @@ struct ConectWatchView: View {
         .onAppear {
             // 检测匹配状态并更新变量
             
+        }
+        .fullScreenCover(isPresented: $enterAddDangerous) {
+            AddDangerView()
         }
     }
 }

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SleepView: View {
     //MARK: -数据变量
+    let sleepTime: TimeInterval
     
     var body: some View {
         ZStack{
@@ -54,7 +55,7 @@ struct SleepView: View {
                     
                     Spacer()
                     
-                    Text("睡眠质量好")
+                    Text("\(Int(sleepTime)/60/60)小时\(Int(sleepTime) % 60)分钟")
                         .font(.system(size: 10.52068))
                       .fontWeight(.bold)
                       .kerning(0.31562)
@@ -70,6 +71,6 @@ struct SleepView: View {
 
 struct SleepView_Previews: PreviewProvider {
     static var previews: some View {
-        SleepView()
+        SleepView(sleepTime: 0.0)
     }
 }

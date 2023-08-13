@@ -24,7 +24,7 @@ struct HealthView: View {
                 HealthRestingheartRateView(rate: healthModel.RestingHeartRate ?? 0)
             }
             
-            SleepView()
+            SleepView(sleepTime: healthModel.sleepTime)
         }
         .navigationTitle("健康检测")
        

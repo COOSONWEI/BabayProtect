@@ -12,13 +12,21 @@ import MapKit
 
 struct OutDoorMainView: View {
     
-    @State var isMove = false
     @State var back = false
     @StateObject private var locationModel = LocationModel()
+    @State private var selectedPlace: MKPointAnnotation?
+    @State private var showSettings = false
     
+    //it's test data
+    var locations = [
+            Location(name: "Location 1", coordinate: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194)),
+            Location(name: "Location 2", coordinate: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4294)),
+            // Add more locations...
+        ]
     var body: some View {
         ZStack{
             Map(coordinateRegion: $locationModel.mapRegion,showsUserLocation: true)
+            
                 .tint(.pink)
                 .ignoresSafeArea()
             
@@ -37,7 +45,7 @@ struct OutDoorMainView: View {
                             .fixedSize()
                     }
                     
-                    LocationView()
+                    LocationView(locationModel: locationModel)
                 }
                 
                 HStack{
@@ -49,6 +57,14 @@ struct OutDoorMainView: View {
                 
                 Spacer()
             }
+            
+            Button("View Settings") {
+                        showSettings = true
+                    }
+                    .sheet(isPresented: $showSettings) {
+                        AddDangerView()
+                            .presentationDetents([.medium, .large])
+            }
         }
         .fullScreenCover(isPresented: $back) {
             HomeView()
@@ -56,6 +72,12 @@ struct OutDoorMainView: View {
     }
         
     
+}
+
+struct Location: Identifiable {
+    let id = UUID()
+    let name: String
+    let coordinate: CLLocationCoordinate2D
 }
 
 
