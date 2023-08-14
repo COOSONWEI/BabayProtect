@@ -7,9 +7,11 @@
 
 import SwiftUI
 
+//MARK: -健康检测界面
 struct HealthView: View {
+    //数据
+    @State var back = false
     var body: some View {
-       
         ZStack{
             
             VStack{
@@ -20,27 +22,51 @@ struct HealthView: View {
                 Spacer()
             }
             
+         
             VStack{
-                HStack{
-                    Button {
-//                        back.toggle()
-                    } label: {
-                        Image("dgBackBT")
-                            .resizable()
-                            .frame(maxWidth: 27, maxHeight: 27)
-                            .fixedSize()
+                VStack{
+                    HStack{
+                        Button {
+                            back.toggle()
+                        } label: {
+                            Image("dgBackBT")
+                                .resizable()
+                                .frame(maxWidth: 27, maxHeight: 27)
+                                .fixedSize()
+                        }
+                        Text("健康检测")
+                            .font(.system(size: 30))
+                            .fontWeight(.bold)
+                            .minimumScaleFactor(0.2)
+                          .foregroundColor(.white)
+                          .frame(width: 248, alignment: .topLeading)
+                        Spacer()
                     }
-                    Text("健康检测")
-                        .font(.system(size: 30))
-                        .fontWeight(.bold)
-                        .minimumScaleFactor(0.2)
-                      .foregroundColor(.white)
-                      .frame(width: 248, alignment: .topLeading)
-                    Spacer()
+                    .padding(.leading,30)
                 }
-                .padding(.leading,30)
-                Spacer()
+                HStack{
+                    ExerciseCard()
+                    VStack{
+                        WalkCard()
+                        RunCard()
+                    }
+                }
+                
+                SleepCard()
+                    .padding(.leading,20)
+                    .padding(.trailing,20)
+                
+                MoreInformationList()
+                    .padding(.leading,20)
+                    .padding(.trailing,20)
+                    .padding(.bottom,20)
             }
+           
+           
+            
+        }
+        .fullScreenCover(isPresented: $back) {
+            HomeView()
         }
     }
 }

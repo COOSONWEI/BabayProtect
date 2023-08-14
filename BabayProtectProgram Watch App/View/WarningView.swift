@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WarningView: View {
+    
     var body: some View {
         //这里分为程序运行中和后台运行的两个通知方式
         VStack {
@@ -32,8 +33,8 @@ struct WarningView: View {
                 }
             }
             .buttonStyle(CustomButtonStyle())
+            .edgesIgnoringSafeArea(.bottom)
         }
-        .ignoresSafeArea(.all)
        
        
     }

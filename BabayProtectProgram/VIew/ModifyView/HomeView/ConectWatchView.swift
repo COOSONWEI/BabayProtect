@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ConectWatchView: View {
     @State var enterAddDangerous = false
+ 
     var body: some View {
         ZStack{
             //背景
@@ -167,6 +168,7 @@ struct ConectWatchView: View {
         .fullScreenCover(isPresented: $enterAddDangerous) {
             AddDangerView()
         }
+        
     }
 }
 

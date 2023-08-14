@@ -10,6 +10,12 @@ import WatchConnectivity
 
 @main
 struct BabayProtectProgramApp: App {
+    init() {
+            // 修改全局的 List 样式
+            UITableView.appearance().backgroundColor = .clear
+    }
+    
+   
     
     var body: some Scene {
         WindowGroup {

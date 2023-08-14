@@ -9,6 +9,8 @@ import SwiftUI
 
 //MARK: -睡眠质量
 struct SleepCard: View {
+    //数据
+    
     var body: some View {
         
         ZStack{
@@ -18,7 +20,7 @@ struct SleepCard: View {
               .background(Color(red: 0.69, green: 0.39, blue: 1))
               .cornerRadius(20)
             
-            VStack{
+            VStack(alignment:.leading){
                 HStack{
                     Text("睡眠数据")
                         .font(.system(size: 25))
@@ -26,7 +28,7 @@ struct SleepCard: View {
                         .minimumScaleFactor(0.2)
                       .multilineTextAlignment(.trailing)
                       .foregroundColor(Color(red: 1, green: 0.98, blue: 0.98))
-                      .frame(width: 105, alignment: .topTrailing)
+                    
                     Image("Sleep")
                         .resizable()
                         .fixedSize()
@@ -34,22 +36,58 @@ struct SleepCard: View {
                 }
                 
                 HStack{
+                    
                     Text("卧床时间")
                         .font(.system(size: 15))
                         .fontWeight(.bold)
                         .minimumScaleFactor(0.2)
                       .multilineTextAlignment(.trailing)
                       .foregroundColor(.white)
+                    Spacer()
+                    HStack(alignment: .center){
+                        Text("11")
+                            .font(.system(size: 28))
+                            .fontWeight(.bold)
+                          .kerning(3)
+                          .minimumScaleFactor(0.2)
+                          .multilineTextAlignment(.trailing)
+                          .foregroundColor(.white)
+                          .frame(width: 28, height: 30, alignment: .topTrailing)
+                       
+                        Text("小时")
+                            .font(.system(size: 15))
+                            .fontWeight(.bold)
+                            .minimumScaleFactor(0.2)
+                          .multilineTextAlignment(.trailing)
+                          .foregroundColor(.white)
+                        
+                        Text("4")
+                            .font(.system(size: 28))
+                            .fontWeight(.bold)
+                          .kerning(3)
+                          .minimumScaleFactor(0.2)
+                          .multilineTextAlignment(.trailing)
+                          .foregroundColor(.white)
+                          .frame(width: 28, height: 30, alignment: .topTrailing)
+                        
+                        Text("分钟")
+                            .font(.system(size: 15))
+                            .fontWeight(.bold)
+                            .minimumScaleFactor(0.2)
+                          .multilineTextAlignment(.trailing)
+                          .foregroundColor(.white)
+                          
+                    }
                     
-                    Text("时间")
                 }
                 
                
                 
             }
+            .padding()
            
         }
-        .frame(maxWidth: 358, maxHeight: 100)
+        .frame(maxHeight: 100)
        
     }
 }

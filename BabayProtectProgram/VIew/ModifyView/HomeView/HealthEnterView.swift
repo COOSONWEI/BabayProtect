@@ -9,11 +9,14 @@ import SwiftUI
 
 //MARK: -健康检测进入界面
 struct HealthEnterView: View {
+    
+    @State var enterHealthDtect = false
+    
     var body: some View {
         Button {
-            
+            enterHealthDtect.toggle()
         } label: {
-            
+        
             ZStack{
                 Rectangle()
                   .foregroundColor(.clear)
@@ -38,6 +41,9 @@ struct HealthEnterView: View {
             }
             .frame(width: 144, height: 144)
             
+        }
+        .fullScreenCover(isPresented: $enterHealthDtect) {
+            HealthView()
         }
 
         

@@ -44,7 +44,7 @@ struct RunCard: View {
                     .font(.system(size: 24))
                     .fontWeight(.bold)
                     .foregroundColor(.white)
-                    .frame(width: 103, height: .infinity, alignment: .topLeading)
+                    .frame(width: 103, height: 30, alignment: .topLeading)
                     .minimumScaleFactor(0.2)
                 
                 HStack {

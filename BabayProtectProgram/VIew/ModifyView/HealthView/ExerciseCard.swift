@@ -122,6 +122,7 @@ struct ExerciseCard: View {
                 
                 
             }
+            .padding(.leading)
         }
         .frame(maxWidth: 209, maxHeight: 279)
     }

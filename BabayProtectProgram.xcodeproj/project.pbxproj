@@ -53,6 +53,12 @@
 		2F0725962A84ACDF007A36CE /* HealthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0725952A84ACDF007A36CE /* HealthModel.swift */; };
 		2F0725982A860C37007A36CE /* HealthWalkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0725972A860C37007A36CE /* HealthWalkView.swift */; };
 		2F07259A2A860C5F007A36CE /* HealthHeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0725992A860C5F007A36CE /* HealthHeartView.swift */; };
+		2F4BDC362A88AC0000D9B447 /* HeartRateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BDC352A88AC0000D9B447 /* HeartRateCard.swift */; };
+		2F4BDC382A88AD0700D9B447 /* EmotionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BDC372A88AD0700D9B447 /* EmotionCard.swift */; };
+		2F4BDC3A2A88B82500D9B447 /* AddInDoorDangerousView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BDC392A88B82500D9B447 /* AddInDoorDangerousView.swift */; };
+		2F4BDC3D2A88B8CC00D9B447 /* InDoorDangerousCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BDC3C2A88B8CC00D9B447 /* InDoorDangerousCard.swift */; };
+		2F4BDC3F2A88C12400D9B447 /* EnterUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BDC3E2A88C12400D9B447 /* EnterUUID.swift */; };
+		2F4BDC432A88C47800D9B447 /* BeaconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BDC422A88C47800D9B447 /* BeaconModel.swift */; };
 		2F59B0632A86110D006DA2C8 /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0622A86110D006DA2C8 /* SleepView.swift */; };
 		2F59B0652A8617C7006DA2C8 /* HealthRunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0642A8617C7006DA2C8 /* HealthRunView.swift */; };
 		2F59B0672A861847006DA2C8 /* HealthRestingheartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0662A861847006DA2C8 /* HealthRestingheartRateView.swift */; };
@@ -144,6 +150,12 @@
 		2F0725952A84ACDF007A36CE /* HealthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthModel.swift; sourceTree = "<group>"; };
 		2F0725972A860C37007A36CE /* HealthWalkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthWalkView.swift; sourceTree = "<group>"; };
 		2F0725992A860C5F007A36CE /* HealthHeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthHeartView.swift; sourceTree = "<group>"; };
+		2F4BDC352A88AC0000D9B447 /* HeartRateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateCard.swift; sourceTree = "<group>"; };
+		2F4BDC372A88AD0700D9B447 /* EmotionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionCard.swift; sourceTree = "<group>"; };
+		2F4BDC392A88B82500D9B447 /* AddInDoorDangerousView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInDoorDangerousView.swift; sourceTree = "<group>"; };
+		2F4BDC3C2A88B8CC00D9B447 /* InDoorDangerousCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InDoorDangerousCard.swift; sourceTree = "<group>"; };
+		2F4BDC3E2A88C12400D9B447 /* EnterUUID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterUUID.swift; sourceTree = "<group>"; };
+		2F4BDC422A88C47800D9B447 /* BeaconModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconModel.swift; sourceTree = "<group>"; };
 		2F59B0622A86110D006DA2C8 /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
 		2F59B0642A8617C7006DA2C8 /* HealthRunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRunView.swift; sourceTree = "<group>"; };
 		2F59B0662A861847006DA2C8 /* HealthRestingheartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRestingheartRateView.swift; sourceTree = "<group>"; };
@@ -198,6 +210,8 @@
 		2F026AA12A874F93005248EF /* InDoorView */ = {
 			isa = PBXGroup;
 			children = (
+				2F4BDC392A88B82500D9B447 /* AddInDoorDangerousView.swift */,
+				2F4BDC3E2A88C12400D9B447 /* EnterUUID.swift */,
 			);
 			path = InDoorView;
 			sourceTree = "<group>";
@@ -242,6 +256,8 @@
 				2F026ABF2A889B45005248EF /* WalkCard.swift */,
 				2F026AC12A889B53005248EF /* SleepCard.swift */,
 				2F026AC32A889B82005248EF /* MoreInformationList.swift */,
+				2F4BDC352A88AC0000D9B447 /* HeartRateCard.swift */,
+				2F4BDC372A88AD0700D9B447 /* EmotionCard.swift */,
 			);
 			path = HealthView;
 			sourceTree = "<group>";
@@ -330,6 +346,7 @@
 				2F0725952A84ACDF007A36CE /* HealthModel.swift */,
 				2F59B0892A866C84006DA2C8 /* WatchModel.swift */,
 				2F026AAB2A879952005248EF /* LocationModel.swift */,
+				2F4BDC422A88C47800D9B447 /* BeaconModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -364,6 +381,14 @@
 				2F07258D2A83BE32007A36CE /* callContact.swift */,
 			);
 			path = SomeHelpFunctions;
+			sourceTree = "<group>";
+		};
+		2F4BDC3B2A88B8B300D9B447 /* InDoorView */ = {
+			isa = PBXGroup;
+			children = (
+				2F4BDC3C2A88B8CC00D9B447 /* InDoorDangerousCard.swift */,
+			);
+			path = InDoorView;
 			sourceTree = "<group>";
 		};
 		2F59B0682A86184D006DA2C8 /* HealthView */ = {
@@ -401,6 +426,7 @@
 		2F59B0732A8649DB006DA2C8 /* ModifyView */ = {
 			isa = PBXGroup;
 			children = (
+				2F4BDC3B2A88B8B300D9B447 /* InDoorView */,
 				2F026ABA2A888235005248EF /* HealthView */,
 				2F026AA82A87734E005248EF /* OutDoorView */,
 				2F026AA72A87733B005248EF /* HomeView */,
@@ -522,8 +548,10 @@
 				2F59B06C2A8627BE006DA2C8 /* HealthKitSupport.swift in Sources */,
 				2F026AB32A8867F1005248EF /* DangerButtonView.swift in Sources */,
 				2F026AB12A87C3C7005248EF /* AddDangerView.swift in Sources */,
+				2F4BDC432A88C47800D9B447 /* BeaconModel.swift in Sources */,
 				2F59B0712A86460F006DA2C8 /* HomeView.swift in Sources */,
 				2F07254E2A835FC9007A36CE /* ContentView.swift in Sources */,
+				2F4BDC3F2A88C12400D9B447 /* EnterUUID.swift in Sources */,
 				2F026A942A8671E9005248EF /* BluetoolthModel.swift in Sources */,
 				2F026ABE2A889B3E005248EF /* RunCard.swift in Sources */,
 				2F026AAA2A8773ED005248EF /* LocationView.swift in Sources */,
@@ -535,6 +563,8 @@
 				2F59B0752A8649F7006DA2C8 /* UnConectWatchView.swift in Sources */,
 				2F59B07B2A864A4D006DA2C8 /* TextModify.swift in Sources */,
 				2F07257F2A83794E007A36CE /* GetContacts.swift in Sources */,
+				2F4BDC3A2A88B82500D9B447 /* AddInDoorDangerousView.swift in Sources */,
+				2F4BDC3D2A88B8CC00D9B447 /* InDoorDangerousCard.swift in Sources */,
 				2F59B0812A865D03006DA2C8 /* CustomBar.swift in Sources */,
 				2F026AB92A887C29005248EF /* HealthView.swift in Sources */,
 				2F07254C2A835FC9007A36CE /* BabayProtectProgramApp.swift in Sources */,
@@ -542,10 +572,12 @@
 				2F026AA62A877332005248EF /* OutDoorFunctionView.swift in Sources */,
 				2F59B07E2A864D11006DA2C8 /* HomeBGView.swift in Sources */,
 				2F026AAC2A879952005248EF /* LocationModel.swift in Sources */,
+				2F4BDC382A88AD0700D9B447 /* EmotionCard.swift in Sources */,
 				2F026AB52A886DC2005248EF /* DangerGeofenceCard.swift in Sources */,
 				2F026AA42A8752C7005248EF /* OutDoorMainView.swift in Sources */,
 				2F59B0692A8621CD006DA2C8 /* HealthModel.swift in Sources */,
 				2F026AC22A889B53005248EF /* SleepCard.swift in Sources */,
+				2F4BDC362A88AC0000D9B447 /* HeartRateCard.swift in Sources */,
 				2F59B0882A866ADA006DA2C8 /* WCSessionModel.swift in Sources */,
 				2F59B0782A864A01006DA2C8 /* ConectWatchView.swift in Sources */,
 				2F026A9A2A874723005248EF /* HealthEnterView.swift in Sources */,
