@@ -72,10 +72,11 @@ struct AddDangerView: View {
             }
             .padding(.top,-150)
            
-            DangerButtonView()
-                .padding(.leading)
-                .padding(.trailing)
-                .padding(.bottom)
+//            DangerButtonView(sheetAddName: <#Binding<Bool>#>)
+//                .padding(.leading)
+//                .padding(.trailing)
+//                .padding(.bottom)
+            
         }
         .fullScreenCover(isPresented: $back) {
             HomeView()

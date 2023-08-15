@@ -20,6 +20,7 @@ struct BabayProtectProgramApp: App {
     var body: some Scene {
         WindowGroup {
             HomeView()
+//            IPhoneSessionView()
         }
     }
     

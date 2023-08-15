@@ -7,12 +7,18 @@
 
 import SwiftUI
 import WatchKit
+import WatchConnectivity
 
 struct MenuView: View {
+    
+    @StateObject private var watchSession = ViewModelWatch()
+    
     @StateObject var healthModel: HealthModel
     @StateObject var bluetool = BluetoothModel()
     @State var isContain = false
-    var model = ViewModelWatch()
+//    var model = ViewModelWatch()
+    
+    @State var session = WCSession.default
     
     var body: some View {
         
@@ -68,6 +74,10 @@ struct MenuView: View {
                
             }
            
+        }
+        .onAppear {
+            session.activate()
+            watchSession.checkTheSession()
         }
         
         

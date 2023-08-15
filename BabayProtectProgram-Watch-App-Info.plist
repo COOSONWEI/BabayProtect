@@ -2,18 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleIdentifier</key>
-	<string></string>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>守护想要访问你的蓝牙权限，以便更好地检测危险标识，保护您的安全。</string>
-	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>守护想要访问你的蓝牙权限，以便更好地检测危险标识，保护您的安全。</string>
-	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
-	<string>守护想要访问你的运动记录，用于方便为您定制更健康的生活习惯</string>
-	<key>NSHealthShareUsageDescription</key>
-	<string>守护想要访问你的健康共享，用于将数据共享给父母，以便他们能够更好地了解的你健康情况</string>
-	<key>NSHealthUpdateUsageDescription</key>
-	<string>守护想要访问你的健康权限，用于更新你的健康数据，以便更好地为你定制更好的健康生活方案</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>

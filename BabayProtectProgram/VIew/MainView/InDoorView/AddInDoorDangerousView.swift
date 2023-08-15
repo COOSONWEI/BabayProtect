@@ -10,6 +10,8 @@ import SwiftUI
 struct AddInDoorDangerousView: View {
     
     @State var back = false
+    @State var sheetAddName = false
+    @StateObject var beaconModel = BeaconModel()
     
     var body: some View {
         
@@ -68,17 +70,24 @@ struct AddInDoorDangerousView: View {
             }
             //添加了危险区的卡片（这里先放一个卡片测试）
             ScrollView{
-                InDoorDangerousCard(name: "厨房区域")
+                ForEach(beaconModel.beacons,id:\.self) { beacon in
+                    InDoorDangerousCard(name: beacon.name)
+                }
+                
             }
             .padding(.top,-150)
            
-            DangerButtonView()
+            DangerButtonView(sheetAddName: $sheetAddName)
                 .padding(.leading)
                 .padding(.trailing)
                 .padding(.bottom)
         }
         .fullScreenCover(isPresented: $back) {
             HomeView()
+        }
+        .sheet(isPresented: $sheetAddName) {
+            EnterUUID(beaconNameModel: beaconModel)
+                .presentationDetents([.medium,.large])
         }
     }
 }

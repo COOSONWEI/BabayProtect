@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ConectWatchView: View {
     @State var enterAddDangerous = false
- 
+    @State var enterIndoorDangerous = false
     var body: some View {
         ZStack{
             //背景
@@ -108,7 +108,7 @@ struct ConectWatchView: View {
                     ScrollView(.vertical,showsIndicators: false) {
                         
                         Button {
-                            
+                            enterIndoorDangerous = true
                         } label: {
                             ZStack{
                                 Rectangle()
@@ -167,6 +167,9 @@ struct ConectWatchView: View {
         }
         .fullScreenCover(isPresented: $enterAddDangerous) {
             AddDangerView()
+        }
+        .fullScreenCover(isPresented: $enterIndoorDangerous) {
+            AddInDoorDangerousView()
         }
         
     }

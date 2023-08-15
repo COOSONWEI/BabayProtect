@@ -7,20 +7,47 @@
 
 import SwiftUI
 
+//send the beacon name to iPhone by sever
 struct EnterUUID: View {
     
-    @AppStorage ("UUID") var uuid = "UUID"
+    @StateObject var beaconNameModel: BeaconModel
+    
+    @State var beaconName = " "
     
     var body: some View {
         VStack{
-           TextField("请输入信标的UUID", text: $uuid)
-            TextField("请输入信标的UUID", text: $uuid)
+            
+            Image("Logo")
+                .resizable()
+                .scaledToFit()
+            
+            TextField("请输入信标的名称", text: $beaconName)
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 10).stroke(Color.gray, lineWidth: 1))
+                .padding(.horizontal)
+            
+            Button(action: {
+                if beaconName != "" {
+                    beaconNameModel.addBeacon(Beacon(name: beaconName))
+                    beaconNameModel.saveBeacons()
+//                    beaconNameModel.loadBeacons()
+                }
+            }) {
+                Text("Login")
+                    .foregroundColor(.white)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            }
+            .padding(.horizontal)
+            
         }
     }
 }
 
 struct EnterUUID_Previews: PreviewProvider {
     static var previews: some View {
-        EnterUUID()
+        EnterUUID(beaconNameModel: BeaconModel())
     }
 }

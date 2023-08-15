@@ -16,6 +16,7 @@ struct BabayProtectProgram_Watch_AppApp: App {
         WindowGroup {
             NavigationStack {
                 MenuView(healthModel: healthModel)
+//                WatchSessionTestView()
                     .onAppear {
                         healthModel.requestHealthKitPermissions()
                         healthModel.fetchTodayStepCount()

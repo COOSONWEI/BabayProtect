@@ -16,8 +16,11 @@ struct HomeView: View {
     
     var body: some View {
         
+      
         ConectWatchView()
-          
+            .onAppear {
+                watchModel.checkTheSession()
+            }
         
     }
     

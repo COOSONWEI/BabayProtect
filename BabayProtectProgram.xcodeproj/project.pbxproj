@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2F026A942A8671E9005248EF /* BluetoolthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0725722A8360A9007A36CE /* BluetoolthModel.swift */; };
 		2F026A972A86726C005248EF /* OutDoorPositionEnterModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026A962A86726C005248EF /* OutDoorPositionEnterModify.swift */; };
-		2F026A982A867475005248EF /* WatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0892A866C84006DA2C8 /* WatchModel.swift */; };
 		2F026A9A2A874723005248EF /* HealthEnterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026A992A874723005248EF /* HealthEnterView.swift */; };
 		2F026A9C2A87485A005248EF /* InDoorEnterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026A9B2A87485A005248EF /* InDoorEnterView.swift */; };
 		2F026A9E2A874C42005248EF /* HomeFunctionChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F026A9D2A874C42005248EF /* HomeFunctionChooseView.swift */; };
@@ -76,6 +75,15 @@
 		2F59B0812A865D03006DA2C8 /* CustomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0802A865D03006DA2C8 /* CustomBar.swift */; };
 		2F59B0822A865D03006DA2C8 /* CustomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0802A865D03006DA2C8 /* CustomBar.swift */; };
 		2F59B0882A866ADA006DA2C8 /* WCSessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0872A866ADA006DA2C8 /* WCSessionModel.swift */; };
+		2FB3C7EB2A89E5F600656DBE /* IPhoneSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3C7EA2A89E5F600656DBE /* IPhoneSessionView.swift */; };
+		2FB3C7ED2A89EB1800656DBE /* WatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F59B0892A866C84006DA2C8 /* WatchModel.swift */; };
+		2FB3C7EF2A89ED0600656DBE /* WatchSessionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3C7EE2A89ED0600656DBE /* WatchSessionTestView.swift */; };
+		2FB3C7F12A89FF1000656DBE /* AddBeaconNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3C7F02A89FF1000656DBE /* AddBeaconNameView.swift */; };
+		2FB3C7F32A8A002B00656DBE /* BeaconsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3C7F22A8A002B00656DBE /* BeaconsModel.swift */; };
+		2FB3C7F72A8A649E00656DBE /* NotifycationsHalder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3C7F62A8A649E00656DBE /* NotifycationsHalder.swift */; };
+		2FB3C7FA2A8A654700656DBE /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3C7F92A8A654700656DBE /* NotificationHandler.swift */; };
+		2FB3C7FE2A8B2FBA00656DBE /* iCloudTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3C7FD2A8B2FBA00656DBE /* iCloudTestView.swift */; };
+		2FB3C8002A8B300900656DBE /* CloudModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3C7FF2A8B300900656DBE /* CloudModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +176,15 @@
 		2F59B0802A865D03006DA2C8 /* CustomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBar.swift; sourceTree = "<group>"; };
 		2F59B0872A866ADA006DA2C8 /* WCSessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCSessionModel.swift; sourceTree = "<group>"; };
 		2F59B0892A866C84006DA2C8 /* WatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchModel.swift; sourceTree = "<group>"; };
+		2FB3C7EA2A89E5F600656DBE /* IPhoneSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhoneSessionView.swift; sourceTree = "<group>"; };
+		2FB3C7EE2A89ED0600656DBE /* WatchSessionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionTestView.swift; sourceTree = "<group>"; };
+		2FB3C7F02A89FF1000656DBE /* AddBeaconNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBeaconNameView.swift; sourceTree = "<group>"; };
+		2FB3C7F22A8A002B00656DBE /* BeaconsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconsModel.swift; sourceTree = "<group>"; };
+		2FB3C7F62A8A649E00656DBE /* NotifycationsHalder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifycationsHalder.swift; sourceTree = "<group>"; };
+		2FB3C7F92A8A654700656DBE /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		2FB3C7FB2A8B220700656DBE /* BabayProtectProgram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BabayProtectProgram.entitlements; sourceTree = "<group>"; };
+		2FB3C7FD2A8B2FBA00656DBE /* iCloudTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudTestView.swift; sourceTree = "<group>"; };
+		2FB3C7FF2A8B300900656DBE /* CloudModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +229,7 @@
 			children = (
 				2F4BDC392A88B82500D9B447 /* AddInDoorDangerousView.swift */,
 				2F4BDC3E2A88C12400D9B447 /* EnterUUID.swift */,
+				2FB3C7F02A89FF1000656DBE /* AddBeaconNameView.swift */,
 			);
 			path = InDoorView;
 			sourceTree = "<group>";
@@ -284,6 +302,7 @@
 		2F07254A2A835FC9007A36CE /* BabayProtectProgram */ = {
 			isa = PBXGroup;
 			children = (
+				2FB3C7FB2A8B220700656DBE /* BabayProtectProgram.entitlements */,
 				2F026AAD2A879F3E005248EF /* Info.plist */,
 				2F59B0862A866AC9006DA2C8 /* Model */,
 				2F59B06E2A86456F006DA2C8 /* VIew */,
@@ -306,9 +325,11 @@
 		2F07255C2A835FCB007A36CE /* BabayProtectProgram Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				2FB3C7FC2A8B2FAA00656DBE /* TestingView */,
 				2F0725902A83CB99007A36CE /* BabayProtectProgram-Watch-App-Info.plist */,
 				2F07258F2A83CB84007A36CE /* BabayProtectProgram Watch App.entitlements */,
-				2F07258C2A83BE1B007A36CE /* SomeHelpFunctions */,
+				2FB3C7F82A8A651200656DBE /* Models */,
+				2F07258C2A83BE1B007A36CE /* Utilities */,
 				2F0725812A837C76007A36CE /* ModifyView */,
 				2F0725772A8365CF007A36CE /* View */,
 				2F07255D2A835FCB007A36CE /* BabayProtectProgramApp.swift */,
@@ -347,6 +368,7 @@
 				2F59B0892A866C84006DA2C8 /* WatchModel.swift */,
 				2F026AAB2A879952005248EF /* LocationModel.swift */,
 				2F4BDC422A88C47800D9B447 /* BeaconModel.swift */,
+				2FB3C7F22A8A002B00656DBE /* BeaconsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -361,6 +383,8 @@
 				2F0725882A83A8CD007A36CE /* WarningView.swift */,
 				2F07258A2A83AE4B007A36CE /* AddContactView.swift */,
 				2F0725912A83D179007A36CE /* HealthView.swift */,
+				2FB3C7EE2A89ED0600656DBE /* WatchSessionTestView.swift */,
+				2FB3C7F62A8A649E00656DBE /* NotifycationsHalder.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -375,12 +399,12 @@
 			path = ModifyView;
 			sourceTree = "<group>";
 		};
-		2F07258C2A83BE1B007A36CE /* SomeHelpFunctions */ = {
+		2F07258C2A83BE1B007A36CE /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				2F07258D2A83BE32007A36CE /* callContact.swift */,
 			);
-			path = SomeHelpFunctions;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		2F4BDC3B2A88B8B300D9B447 /* InDoorView */ = {
@@ -432,6 +456,7 @@
 				2F026AA72A87733B005248EF /* HomeView */,
 				2F59B07A2A864A4D006DA2C8 /* TextModify.swift */,
 				2F59B07D2A864D11006DA2C8 /* HomeBGView.swift */,
+				2FB3C7EA2A89E5F600656DBE /* IPhoneSessionView.swift */,
 			);
 			path = ModifyView;
 			sourceTree = "<group>";
@@ -441,6 +466,23 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2FB3C7F82A8A651200656DBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3C7F92A8A654700656DBE /* NotificationHandler.swift */,
+				2FB3C7FF2A8B300900656DBE /* CloudModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FB3C7FC2A8B2FAA00656DBE /* TestingView */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3C7FD2A8B2FBA00656DBE /* iCloudTestView.swift */,
+			);
+			path = TestingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -568,6 +610,7 @@
 				2F59B0812A865D03006DA2C8 /* CustomBar.swift in Sources */,
 				2F026AB92A887C29005248EF /* HealthView.swift in Sources */,
 				2F07254C2A835FC9007A36CE /* BabayProtectProgramApp.swift in Sources */,
+				2FB3C7EB2A89E5F600656DBE /* IPhoneSessionView.swift in Sources */,
 				2F59B06A2A8621D0006DA2C8 /* PhoneNumberModel.swift in Sources */,
 				2F026AA62A877332005248EF /* OutDoorFunctionView.swift in Sources */,
 				2F59B07E2A864D11006DA2C8 /* HomeBGView.swift in Sources */,
@@ -575,11 +618,13 @@
 				2F4BDC382A88AD0700D9B447 /* EmotionCard.swift in Sources */,
 				2F026AB52A886DC2005248EF /* DangerGeofenceCard.swift in Sources */,
 				2F026AA42A8752C7005248EF /* OutDoorMainView.swift in Sources */,
+				2FB3C7F12A89FF1000656DBE /* AddBeaconNameView.swift in Sources */,
 				2F59B0692A8621CD006DA2C8 /* HealthModel.swift in Sources */,
 				2F026AC22A889B53005248EF /* SleepCard.swift in Sources */,
 				2F4BDC362A88AC0000D9B447 /* HeartRateCard.swift in Sources */,
 				2F59B0882A866ADA006DA2C8 /* WCSessionModel.swift in Sources */,
 				2F59B0782A864A01006DA2C8 /* ConectWatchView.swift in Sources */,
+				2FB3C7F32A8A002B00656DBE /* BeaconsModel.swift in Sources */,
 				2F026A9A2A874723005248EF /* HealthEnterView.swift in Sources */,
 				2F026AC02A889B45005248EF /* WalkCard.swift in Sources */,
 				2F026ABC2A888275005248EF /* ExerciseCard.swift in Sources */,
@@ -591,6 +636,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F0725962A84ACDF007A36CE /* HealthModel.swift in Sources */,
+				2FB3C7FA2A8A654700656DBE /* NotificationHandler.swift in Sources */,
+				2FB3C8002A8B300900656DBE /* CloudModel.swift in Sources */,
 				2F07258E2A83BE32007A36CE /* callContact.swift in Sources */,
 				2F59B0822A865D03006DA2C8 /* CustomBar.swift in Sources */,
 				2F0725832A837C9A007A36CE /* CallModifyView.swift in Sources */,
@@ -600,20 +647,23 @@
 				2F0725852A83802C007A36CE /* PhoneNumberModel.swift in Sources */,
 				2F0725602A835FCB007A36CE /* ContentView.swift in Sources */,
 				2F0725892A83A8CD007A36CE /* WarningView.swift in Sources */,
+				2FB3C7F72A8A649E00656DBE /* NotifycationsHalder.swift in Sources */,
 				2F0725872A838824007A36CE /* CustomButtonStyle.swift in Sources */,
 				2F0725982A860C37007A36CE /* HealthWalkView.swift in Sources */,
 				2F0725802A83794E007A36CE /* GetContacts.swift in Sources */,
 				2F07259A2A860C5F007A36CE /* HealthHeartView.swift in Sources */,
 				2F0725712A836072007A36CE /* BeaconDetectView.swift in Sources */,
 				2F59B06D2A8627BE006DA2C8 /* HealthKitSupport.swift in Sources */,
-				2F026A982A867475005248EF /* WatchModel.swift in Sources */,
 				2F07255E2A835FCB007A36CE /* BabayProtectProgramApp.swift in Sources */,
+				2FB3C7EF2A89ED0600656DBE /* WatchSessionTestView.swift in Sources */,
 				2F59B0672A861847006DA2C8 /* HealthRestingheartRateView.swift in Sources */,
 				2F0725732A8360A9007A36CE /* BluetoolthModel.swift in Sources */,
 				2F59B07C2A864A4D006DA2C8 /* TextModify.swift in Sources */,
 				2F59B07F2A864D11006DA2C8 /* HomeBGView.swift in Sources */,
+				2FB3C7FE2A8B2FBA00656DBE /* iCloudTestView.swift in Sources */,
 				2F0725792A8368B3007A36CE /* CallPhoneView.swift in Sources */,
 				2F59B0632A86110D006DA2C8 /* SleepView.swift in Sources */,
+				2FB3C7ED2A89EB1800656DBE /* WatchModel.swift in Sources */,
 				2F59B0652A8617C7006DA2C8 /* HealthRunView.swift in Sources */,
 				2F07258B2A83AE4B007A36CE /* AddContactView.swift in Sources */,
 			);
@@ -752,16 +802,21 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BabayProtectProgram-Watch-App-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "守护想要访问你的蓝牙权限，以便更好地检测危险标识，保护您的安全。";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "守护想要访问你的蓝牙权限，以便更好地检测危险标识，保护您的安全。";
 				INFOPLIST_KEY_NSContactsUsageDescription = "守护想要获取您的手机联系人，以便你能更好的联系他们";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "守护想要访问你的运动记录，用于方便为您定制更健康的生活习惯";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "守护想要访问你的健康共享，用于将数据共享给父母，以便他们能够更好地了解的你健康情况";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "守护想要访问你的健康权限，用于更新你的健康数据，以便更好地为你定制更好的健康生活方案";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = baby.demo.BabayProtectProgram;
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = baby.demo.BabayProtectProgram.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsy.shouhu;
 				PRODUCT_NAME = "守护";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -785,16 +840,21 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BabayProtectProgram-Watch-App-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "守护想要访问你的蓝牙权限，以便更好地检测危险标识，保护您的安全。";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "守护想要访问你的蓝牙权限，以便更好地检测危险标识，保护您的安全。";
 				INFOPLIST_KEY_NSContactsUsageDescription = "守护想要获取您的手机联系人，以便你能更好的联系他们";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "守护想要访问你的运动记录，用于方便为您定制更健康的生活习惯";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "守护想要访问你的健康共享，用于将数据共享给父母，以便他们能够更好地了解的你健康情况";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "守护想要访问你的健康权限，用于更新你的健康数据，以便更好地为你定制更好的健康生活方案";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = baby.demo.BabayProtectProgram;
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = baby.demo.BabayProtectProgram.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsy.shouhu;
 				PRODUCT_NAME = "守护";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -812,6 +872,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BabayProtectProgram/BabayProtectProgram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BabayProtectProgram/Preview Content\"";
@@ -834,7 +895,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = baby.demo.BabayProtectProgram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsy.shouhu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -849,6 +910,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BabayProtectProgram/BabayProtectProgram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BabayProtectProgram/Preview Content\"";
@@ -871,7 +933,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = baby.demo.BabayProtectProgram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsy.shouhu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
